@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>人才招聘</title>
+
+	<link rel="stylesheet" type="text/css" href="css/ability.css">
+		<!--引入bootstrap框架-->
+			
+
+</head>
+<body>
+		<!--页面头开始-->
+<div class="top">
+<div class="top-content">
+<ul>
+<li><a href="javascript:;" id="people" >企业公众号：IT木杉</a></li>
+
+<li><a href="javascript:;" onclick="AddFavorite(window.location,document.title)">收藏</a></li>
+<li><a href="javascript:;" onclick="SetHome(window.location)">设为首页</a></li>
+
+</ul>
+</div>
+</div>	
+<!--页面头结束-->
+	<div class="wrap">
+<div class="logo">
+
+<div class="logo-left">
+<img src="images/logo1.jpg" alt="企业"  />
+</div>
+
+<div class="logo-right">
+<img src="images/tel.jpg" alt="服务热线" />
+<span class="tel">24小时服务热线：131-69243591</span>
+</div>
+</div><!--logo页面头结束-->
+
+<div class="nav">
+
+<div class="nav-mid">
+<div class="nav-mid-left">
+	<div class="nav-left"></div><!--nva-left结束-->
+<ul>
+<li><a href="index.html">首页</a></li>
+<li><a href="ability.html">人才招聘</a></li>
+<li><a href="news.html">I.T新闻</a></li>
+<li><a href="course.html">课程中心</a></li>
+<li><a href="touch.html">联系我们</a></li>
+<li><a href="login.html" id="btnLogin" class="login-btn">登录页面</a></li>
+</ul>
+</div>
+
+<div class="nav-mid-right">
+<form action="" method="post">
+	<input type="text" class="text1" placeholder="请输入你要搜索的关键字"/>
+</form>
+
+</div>
+
+</div><!--nva-mid结束-->
+
+
+	<div class="nav-right">
+</div><!--nva-right结束-->
+
+</div><!--nva结束-->
+
+<div id="notice" class="notice">
+<div id="notice-tit" class="notice-tit">
+<ul>
+     <li class="select"><a href="#">IT互联网</a></li>
+     <li><a href="#">金融</a></li>
+     <li><a href="#">广告</a></li>
+     <li><a href="#">房地产</a></li>
+     <li><a href="#">消费品</a></li>
+     <li><a href="#">制造业</a></li>
+
+</ul>
+
+
+</div>
+<div id="notice-con" class="notice-con">
+<div class="mod" style="display: block;">
+
+    <ul>
+   <li><img src="images/it.jpg"></li>
+   <li><img src="images/it1.jpg"></li>
+   <li><img src="images/it2.jpg"></li>
+   <li><img src="images/it3.jpg"></li>
+   <li><img src="images/it4.jpg"></li>
+
+
+    </ul>
+
+
+
+
+   
+
+
+   
+<li><a href="javascript:;">百度	<span class="gong"> 资深研发工程师</span>	<span class="money">$30 - 70万<span></span><span class="zhiwei">	更多职位>></span> </a></li>
+
+<li><a href="javascript:;">阿里巴巴	<span class="gong">PHP高级研发工程师</span>	<span class="money">$15 - 25万</span>	<span class="zhiwei">	更多职位>></span> </a></li>
+
+
+<li><a href="javascript:;">新浪	<span class="gong">  数据开发工程师</span>	<span class="money">$30 - 70万</span>	<span class="zhiwei">	更多职位>></span> </a></li>
+
+
+<li><a href="javascript:;">聚美优品 	<span class="gong">网页设计</span>	<span class="money">	$10 - 30万</span>	<span class="zhiwei">	更多职位>></span> 
+
+</a></li>
+
+
+<li><a href="javascript:;">京东	<span class="gong">网络架构师</span><span class="money">$30 - 60万</span>	<span class="zhiwei">	更多职位>></span> </li>
+
+
+     
+
+</div>
+
+<div class="mod" style="display: none;">
+
+    <ul>
+   <li><img src="images/bank.jpg"></li>
+   <li><img src="images/bank1.jpg"></li>
+   <li><img src="images/bank2.jpg"></li>
+   <li><img src="images/bank3.jpg"></li>
+   <li><img src="images/bank4.png"></li>
+
+
+    </ul>
+
+
+
+
+   
+
+
+   
+<li><a href="javascript:;" style="margin-left: 0px;">证券	<span class="gong"> 资深研发工程师</span>	<span class="money">$20 - 70万<span></span><span class="zhiwei">	更多职位>></span> </a></li>
+
+<li><a href="javascript:;">长江证券	<span class="gong">PHP高级研发工程师</span>	<span class="money">$20 - 30万</span>	<span class="zhiwei">	更多职位>></span> </a></li>
+
+
+<li><a href="javascript:;">新浪	<span class="gong">  金融部业务总监</span>	<span class="money">$20 - 60万</span>	<span class="zhiwei">	更多职位>></span> </a></li>
+
+
+<li><a href="javascript:;">国信证券 	<span class="gong">产品设计</span>	<span class="money">$15 - 20万</span>	<span class="zhiwei">	更多职位>></span> 
+
+</a></li>
+
+
+<li><a href="javascript:;">京东	<span class="gong">  网络架构师</span><span class="money">$20 - 50万</span>	<span class="zhiwei">	更多职位>></span> </li>
+
+
+     
+
+</div>
+
+<div class="mod" style="display: none;">
+
+    <ul>
+<li><img src="images/ady.jpg"></li>
+   <li><img src="images/ady1.jpg"></li>
+   <li><img src="images/ady2.jpg"></li>
+   <li><img src="images/ady3.jpg"></li>
+   <li><img src="images/ady4.jpg"></li>
+
+
+    </ul>
+
+
+
+
+   
+
+
+
+<li><a href="javascript:;" style="margin-left: 0px;">腾讯	<span class="gong">运营总监工程师</span>	<span class="money">$35 - 60万<span></span><span class="zhiwei">	更多职位>></span> </a></li>
+
+<li><a href="javascript:;">阿里旺旺	<span class="gong">PHP高级研发工程师</span>	<span class="money">$20 - 35万</span>	<span class="zhiwei">	更多职位>></span> </a></li>
+
+
+<li><a href="javascript:;">雅虎	<span class="gong">   数据开发工程师</span>	<span class="money">$20 - 60万</span>	<span class="zhiwei">	更多职位>></span> </a></li>
+
+
+<li><a href="javascript:;">昌荣传媒 	<span class="gong">网页设计</span>	<span class="money">$15 - 30万</span>	<span class="zhiwei">	更多职位>></span> 
+
+</a></li>
+
+
+<li><a href="javascript:;">新浪	<span class="gong">  网络架构师</span><span class="money">$20 - 60万</span>	<span class="zhiwei">	更多职位>></span> </li>
+
+
+    </div>     
+
+
+
+
+
+<div class="mod" style="display: none;">
+	
+    <ul>
+  <li><img src="images/fang.jpg"></li>
+   <li><img src="images/fang1.jpg"></li>
+   <li><img src="images/fang2.jpg"></li>
+   <li><img src="images/fang3.jpg"></li>
+   <li><img src="images/fang4.jpg"></li>
+
+
+    </ul>
+
+
+
+
+   
+
+
+
+<li><a href="javascript:;" style="margin-left: 0px;">硅谷	<span class="gong"> 资深研发工程师</span>	<span class="money">$50 - 80万<span></span><span class="zhiwei">	更多职位>></span> </a></li>
+
+<li><a href="javascript:;">麦田房产	<span class="gong">PHP高级研发工程师</span>	<span class="money">$55 - 65万</span>	<span class="zhiwei">	更多职位>></span> </a></li>
+
+
+<li><a href="javascript:;">新浪	<span class="gong">  项目公司总经理</span>	<span class="money">$10 - 60万</span>	<span class="zhiwei">	更多职位>></span> </a></li>
+
+
+<li><a href="javascript:;">远洋地产 	<span class="gong">项目经理</span>	<span class="money">$10 - 40万</span>	<span class="zhiwei">	更多职位>></span> 
+
+</a></li>
+
+
+<li><a href="javascript:;">京东	<span class="gong"> 网络架构师</span><span class="money">$30 - 60万</span>	<span class="zhiwei">	更多职位>></span> </li>
+
+
+    </div>     
+
+
+
+
+
+<div class="mod" style="display: none;">
+
+    <ul>
+<li><img src="images/ady.jpg"></li>
+   <li><img src="images/ady1.jpg"></li>
+   <li><img src="images/ady2.jpg"></li>
+   <li><img src="images/ady3.jpg"></li>
+   <li><img src="images/ady4.jpg"></li>
+
+
+    </ul>
+
+
+
+
+   
+
+
+  
+<li><a href="javascript:;" style="margin-left: 0px;">百度	<span class="gong">资深研发工程师</span>	<span class="money">$30 - 70万<span></span><span class="zhiwei">	更多职位>></span> </a></li>
+
+<li><a href="javascript:;">阿里巴巴	<span class="gong">PHP高级研发工程师</span>	<span class="money">$15 - 25万</span>	<span class="zhiwei">	更多职位>></span> </a></li>
+
+
+<li><a href="javascript:;">新浪	<span class="gong">   数据开发工程师</span>	<span class="money">$30 - 70万</span>	<span class="zhiwei">	更多职位>></span> </a></li>
+
+
+<li><a href="javascript:;">聚美优品 	<span class="gong">网页设计</span>	<span class="money">$10 - 30万</span>	<span class="zhiwei">	更多职位>></span> 
+
+</a></li>
+
+
+<li><a href="javascript:;">京东	<span class="gong">  网络架构师</span><span class="money">	$30 - 60万</span>	<span class="zhiwei">	更多职位>></span> </li>
+
+   
+
+</div>
+
+<div class="mod" style="display: none;">
+
+    <ul>
+<li><img src="images/ady.jpg"></li>
+   <li><img src="images/ady1.jpg"></li>
+   <li><img src="images/ady2.jpg"></li>
+   <li><img src="images/ady3.jpg"></li>
+   <li><img src="images/ady4.jpg"></li>
+
+
+    </ul>
+
+
+
+
+   
+
+
+  
+<li><a href="javascript:;" style="margin-left: 0px;">百度	<span class="gong"> 资深研发工程师</span>	<span class="money">$30 - 70万<span></span><span class="zhiwei">	更多职位>></span> </a></li>
+
+<li><a href="javascript:;">阿里巴巴	<span class="gong">PHP高级研发工程师</span>	<span class="money">$15 - 25万</span>	<span class="zhiwei">	更多职位>></span> </a></li>
+
+
+<li><a href="javascript:;">新浪	<span class="gong">   数据开发工程师</span>	<span class="money">$30 - 70万</span>	<span class="zhiwei">	更多职位>></span> </a></li>
+
+
+<li><a href="javascript:;">聚美优品 	<span class="gong">网页设计</span>	<span class="money">$10 - 30万</span>	<span class="zhiwei">	更多职位>></span> 
+
+</a></li>
+
+
+<li><a href="javascript:;">京东	<span class="gong">   网络架构师</span><span class="money">	$30 - 60万</span>	<span class="zhiwei">	更多职位>></span> </li>
+
+</div>
+
+</div>
+
+
+</div><!-- notice结束 -->
+
+
+
+
+
+
+<div class="menufoot">
+	<ul class="polar" >
+<li style="width: 298px;"> <a href="1" title="推荐"><img src="images/zhiwei.jpg" alt="推荐"  style="width: 165px;height: 48px;"></a></li>
+<li><a href="2" title="反馈"><img src="images/zhiwei1.jpg" alt="反馈" style="width: 165px;height: 48px;"></a></li>
+<li><a href="3" title="保护"><img src="images/zhiwei2.jpg" alt="保护" style="width: 165px;height: 48px;"></a></li>
+<li><a href="4" title="查询"><img src="images/zhiwei3.jpg" alt="查询" style="width: 165px;height: 48px;"></a></li>
+
+</div>
+
+
+
+<div class="wei11">
+  <p style="color: blue;font-size: 18px;">推荐职位</p>
+  <a href=""><p>资深财务经理</p></a>
+  <a href=""><p>税务主管</p></a>
+  <a href=""><p>责任会计</p></a>
+  <a href=""><p>财务经理总监</p></a>
+  <a href=""><p>注册会计师</p></a>
+  <a href=""><p>总经理理财务</p></a>
+  <a href=""><p>IT工程师</p></a>
+  <a href=""><p>美工工程师</p></a>
+  <a href=""><p>JAVA工程师</p></a>
+  <a href=""><p>安卓工程师</p></a>
+  <a href=""><p>总裁财务</p></a>
+  <a href=""><p>外汇师</p></a>
+
+
+
+
+
+
+</div>
+
+
+<div class="wei111">
+  
+  <a href=""><p>web前端招聘</p></a>
+  <a href=""><p>房地产招聘</p></a>
+  <a href=""><p>书法销售招聘</p></a>
+  <a href=""><p>软件美工招聘</p></a>
+  <a href=""><p>IT168</p></a>
+  <a href=""><p>IT雷锋网</p></a>
+  <a href=""><p>比特网</p></a>
+  <a href=""><p>IT专家</p></a>
+  <a href=""><p>TechWeb</p></a>
+  <a href=""><p>IT华强北</p></a>
+  <a href=""><p>VRIT</p></a>
+  <a href=""><p>IT之家</p></a>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+<div class="wei">
+  <p style="color: blue;font-size: 18px;">工作招聘链接</p>
+  <a href=""><p>网站后台招聘</p></a>
+  <a href=""><p>企业培训师招聘</p></a>
+  <a href=""><p>电镀铬招聘</p></a>
+  <a href=""><p>董事长助理招聘</p></a>
+  <a href=""><p>项目合作招聘</p></a>
+  <a href=""><p>电脑销售招聘</p></a>
+  <a href=""><p>房地产交易招聘</p></a>
+  <a href=""><p>IT招聘</p></a>
+  <a href=""><p>JAVA招聘</p></a>
+  <a href=""><p>安卓招聘</p></a>
+  <a href=""><p>it技术支持招聘</p></a>
+  <a href=""><p>科研项目招聘</p></a>
+
+
+
+
+
+
+</div>
+
+
+<div class="wei1">
+  
+  <a href=""><p>web前端招聘</p></a>
+  <a href=""><p>房地产招聘</p></a>
+  <a href=""><p>书法销售招聘</p></a>
+  <a href=""><p>软件美工招聘</p></a>
+  <a href=""><p>IT168</p></a>
+  <a href=""><p>IT雷锋网</p></a>
+  <a href=""><p>比特网</p></a>
+  <a href=""><p>IT专家</p></a>
+  <a href=""><p>TechWeb</p></a>
+  <a href=""><p>IT华强北</p></a>
+  <a href=""><p>VRIT</p></a>
+  <a href=""><p>IT之家</p></a>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="foot">
+
+
+ <div class="foottop">
+<ul>
+<li><a href="#">关于</a>
+  <ul>
+  <li><a href="#">品牌故事</a></li>
+  <li><a href="#">联系我们</a></li>
+  <li><a href="#">加入我们</a></li>
+  <li><a href="#">版权声明</a></li>
+
+  </ul>
+</li>
+
+
+<li><a href="#">留言</a>
+ <ul>
+  <li><a href="#">QQ空间</a></li>
+  <li><a href="#">新浪微博</a></li>
+  <li><a href="#">腾讯微博</a></li>
+  <li><a href="#">企业微信</a></li>
+
+  </ul>
+
+
+
+</li>
+
+
+
+<li><a href="#">关注</a>
+ <ul>
+  <li><a href="#">意见反馈</a></li>
+  <li><a href="#">问题留言</a></li>
+  <li><a href="#">媒体联络</a></li>
+  <li><a href="#">在线客服</a></li>
+
+  </ul>
+
+
+</li>
+
+
+<li><a href="#">课程</a>
+ <ul>
+  <li><a href="#">web前端开发</a></li>
+  <li><a href="#">PHP开发</a></li>
+  <li><a href="#">java开发</a></li>
+  <li><a href="#">Android开发</a></li>
+
+  </ul>
+
+
+
+</li>
+
+
+
+
+<li><a href="#"><img src="images/weixin.png">微信</a>
+<ul>
+ <li><img src="images/wx.jpg"></li>
+</ul>
+
+</li>
+
+
+</ul>
+
+
+ </div>
+
+<div class="ziti">
+未经ability.html同意，不得转载本网站之所有招聘信息及作品 我的招聘网版权所有© 1997-2014<br>
+京ICP备12025925号 电信业务审批[2001]字第233号函 京公网安备110105000322
+</div>
+</div>
+
+
+
+</div><!--wrap结束-->
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="js/ability.js"></script>
+</body>
+</html>

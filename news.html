@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>新闻</title>
+	<link rel="stylesheet" type="text/css" href="css/news.css">
+</head>
+<body>
+			<!--页面头开始-->
+<div class="top">
+<div class="top-content">
+<ul>
+<li><a href="javascript:;" id="people" >企业公众号：IT木杉</a></li>
+
+<li><a href="javascript:;" onclick="AddFavorite(window.location,document.title)">收藏</a></li>
+<li><a href="javascript:;" onclick="SetHome(window.location)">设为首页</a></li>
+
+</ul>
+</div>
+</div>	
+<!--页面头结束-->
+	<div class="wrap">
+<div class="logo">
+
+<div class="logo-left">
+<img src="images/logo1.jpg" alt="企业"  />
+</div>
+
+<div class="logo-right">
+<img src="images/tel.jpg" alt="服务热线" />
+<span class="tel">24小时服务热线：131-69243591</span>
+</div>
+</div><!--logo页面头结束-->
+
+<div class="nav">
+
+<div class="nav-mid">
+<div class="nav-mid-left">
+	<div class="nav-left"></div><!--nva-left结束-->
+<ul>
+<li><a href="index.html">首页</a></li>
+<li><a href="ability.html">人才招聘</a></li>
+<li><a href="news.html">I.T新闻</a></li>
+<li><a href="course.html">课程中心</a></li>
+<li><a href="touch.html">联系我们</a></li>
+<li><a href="login.html" id="btnLogin" class="login-btn">登录页面</a></li>
+</ul>
+</div>
+
+<div class="nav-mid-right">
+<form action="" method="post">
+	<input type="text" class="text1" placeholder="请输入你要搜索的关键字"/>
+</form>
+
+</div>
+
+</div><!--nva-mid结束-->
+
+
+	<div class="nav-right">
+</div><!--nva-right结束-->
+
+</div><!--nva结束-->
+
+
+
+
+<div id="subject" class="wrapper">
+<ul>
+<li> <a href="javascript:;"><img src="images/new.jpg">
+<div class="info">
+<h3 style="color:gray;">HTC</h3>
+<p style="color: black">零售价超:</p>
+<p class="price">6690元</p>
+ 
+</div>
+<!--虚线-->
+<i class="line"></i>
+  <!--遮罩层-->
+<i class="mask"></i>
+
+
+</a></li>
+
+
+
+
+
+<li>
+<a href="javascript:;"><img src="images/new2.jpg">
+<div class="info">
+<h3 style="color:gray;">X机器人</h3>
+<p style="color: black">京东</p>
+<p class="price">无人物流</p>
+ 
+</div>
+<!--虚线-->
+<i class="line"></i>
+  <!--遮罩层-->
+<i class="mask"></i>
+
+
+</a>
+
+
+
+
+
+
+</li>
+
+
+
+
+
+
+<li>
+<a href="javascript:;"><img src="images/new4.jpg">
+<div class="info">
+<h3 style="color:gray;">Facebook</h3>
+<p style="color: black">丑闻</p>
+<p class="price">1.2亿用户</p>
+ 
+</div>
+<!--虚线-->
+<i class="line"></i>
+  <!--遮罩层-->
+<i class="mask"></i>
+
+
+</a>
+
+
+
+
+</li>
+
+
+
+<li>
+
+<a href="javascript:;"><img src="images/new5.jpg">
+<div class="info">
+<h3 style="color:gray;">科基带芯片</h3>
+<p style="color: black">phone</p>
+<p class="price">英特尔</p>
+ 
+</div>
+<!--虚线-->
+<i class="line"></i>
+  <!--遮罩层-->
+<i class="mask"></i>
+
+
+</a>
+
+</li>
+
+
+
+<li>
+<a href="javascript:;"><img src="images/new6.jpg">
+<div class="info">
+<h3 style="color:gray;">Opera</h3>
+<p style="color: black">价格下降：</p>
+<p class="price">$10美元</p>
+ 
+</div>
+<!--虚线-->
+<i class="line"></i>
+  <!--遮罩层-->
+<i class="mask"></i>
+
+
+</a>
+
+</li>
+
+
+
+<li>
+
+
+
+
+<a href="javascript:;"><img src="images/new7.jpg">
+<div class="info">
+<h3 style="color:gray;">intel</h3>
+<p style="color: black">收购</p>
+<p class="price">eASIC</p>
+ 
+</div>
+<!--虚线-->
+<i class="line"></i>
+  <!--遮罩层-->
+<i class="mask"></i>
+
+
+</a>
+</li>
+
+<li>
+
+<a href="javascript:;"><img src="images/new1.png">
+<div class="info">
+<h3 style="color:gray;">科基带芯片</h3>
+<p style="color: black">phone</p>
+<p class="price">英特尔</p>
+ 
+</div>
+<!--虚线-->
+<i class="line"></i>
+  <!--遮罩层-->
+<i class="mask"></i>
+
+
+</a>
+
+</li>
+
+
+
+
+
+
+</ul>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="new-content-top">
+
+
+<div class="new-left" style="margin-top: 1%;">
+<h1 style="font-size: 18px; font-weight: bold; padding-bottom: 25px;">新闻导航</h1>
+<ul>
+<li><a href="news.html">公司新闻</a></li>
+<li><a href="http://www.itxinwen.com/">行业新闻</a></li>
+<li><a href="http://www.xinhuanet.com/zgjx/">媒体报道</a></li>
+<li><a href="course.html">活动专题</a></li>
+<li><a href="http://www.youku.com/">精彩视频</a></li>
+<li><a href="http://www.ziyuanku.com/">中华资源库</a></li>
+<li><a href="touch.html">联系方式</a></li>
+
+</ul>
+
+
+
+
+
+
+</div><!-- new-type结束 -->
+
+<div class="list-box" style="float: left;">
+
+<h1 style="font-size: 38px; font-weight: bold;padding-bottom: 25px;text-align: center;color: gray;">新闻头条</h1>
+<h3 style="font-size: 25px;font-weight: bold; text-align: center;">快手首席内容官曾光明已于月初离开快手 不再担任首席内容官</h3>
+<p style="margin-top: 15px;">来源：新浪科技 <span style="float: right;">2018-07-16 11:19:00</span>
+
+<div class="list-box-content">
+<p>　快手首席内容官曾光明宣布已于月初离开快手，不再担任快手科技首席内容官一职。对此，快手方面向新浪科技表示称，曾光明在快手的飞速发展中作出了重要贡献，祝福他的未来更加美好。</p>
+<img src="images/new8.jpg"  style="margin-left: 40px;" />
+<p style="text-align: center; margin-bottom: 20px;">　曾光明</p>
+<p>2016年12月30日，网易传媒宣布内容部架构调整，曾光明因个人原因不再担任网易传媒常务副总编辑，未来将以顾问身份继续支持网易传媒业务的发展。仅仅过了十余天，曾光明就加盟快手，出任快手合伙人、首席内容官。</p>
+<p style="margin-top:20px;">以下为声明全文：</p>
+<p>经友好协商，本人己于本月初离开快手，不再担任快手科技首席内容官一职。</p>
+<p>
+
+
+<p>在过去的一年半时间里，我在快手科技中亲身见证了一个优秀公司的高速崛起。我们共同经历风雨，探索了未知，留下了诚意;我个人也收获了人生中无价的知识、经验与友情。</p>
+<p>我坚信快手正在进行一项有意义的工作，它的价值将随着时间流逝而持续被人认知，快手在记录历史，快手也将被历史记录。</p>
+<p>我永远为自己曾为快手一份子而自豪，永远为快手送上我的全部祝福。</p>
+<p>世界很小，有缘再见。</p>
+<p>曾光明</p>
+<p style="margin-top: 30px;">2018年7月15日</p>
+</div>
+
+</div><!-- list-box结束 -->
+
+
+
+
+<div class="new-right">
+<fieldset style="border-color: #F2F2F2; margin-top: 1%;">
+              <legend style="text-align: center;"><span style="font-size: 18px;font-weight: bold;">今日热点</span></legend>
+
+<li><a href="http://news.itxinwen.com/it/20180716/843.html">京东商城实施轮值CEO制度 集团CMO徐雷兼任首任京东商城轮值CEO</a></li>
+<li><a href="http://news.itxinwen.com/it/20180716/842.html">滴滴外卖宣布将于八月份正式登陆济南</a></li>
+<li><a href="http://news.itxinwen.com/it/20180716/829.html">苹果印度分公司3高管离职 上半年销量不足100万台</a></li>
+<li><a href="http://news.itxinwen.com/it/20180716/827.html">Uber竞争对手打车应用Gett拟退出美国市场</a></li>
+<li><a href="http://news.itxinwen.com/it/20180716/823.html">罗永浩微博删除近期TNT相关内容</a></li>
+<li><a href="http://news.itxinwen.com/it/20180716/815.html">高端智能音箱制造商Sonos计划在纳斯达克股票交易所上市</a></li>
+<li><a href="http://news.itxinwen.com/it/20180715/791.html">小米之家又一新店在京开业：小米之家通州万达广场店</a></li>
+<li><a href="http://news.itxinwen.com/it/20180715/777.html">Facebook挖走谷歌芯片开发主管Shahriar Rabii 帮自己制作芯片</a></li>
+<li><a href="http://www.itxinwen.com/digi/20180715/779.html">微软为Surface Go发布两款转接头 8月2日发售</a></li>
+<li><a href="http://www.itxinwen.com/cloud/20180704/263.html">谷歌云服务COO黛安·布莱恩特离职 供职不到一年</a></li>
+<li><a href="http://www.itxinwen.com/iot/20180716/816.html">盛大游戏携手国家文物局 扶持本土文创力量</a></li>
+<li><a href="">今年第一季度阿里巴巴已成为全球第四大云计算服务供应商</a></li>
+
+
+</fieldset>
+
+<div class="zui">
+<div style="font-size: 18px; font-weight: bold; margin-left: 30px; margin-bottom: 15px;">
+     图流动态
+</div>
+
+
+
+
+<div class="shang"><a href="http://productnews.itxinwen.com/txit/20180712/681.html">
+<img src="images/zui.jpg">
+<p style="font-size: 18px; color: black">中国联通：骨干互联网设备IPv6支持率已达100%</p>
+</a>
+</div>
+
+
+<div class="you">
+<a href="http://productnews.itxinwen.com/txit/20180712/646.html"><img src="images/zui1.jpg"><p style="font-size: 18px; color: black">中国铁塔将在7月26日赴港上市 未来还将会在A股上市</p></a>
+
+
+</div>
+
+
+
+
+<div class="zuo">
+      <a href="http://productnews.itxinwen.com/txit/20180712/645.html"><img src="images/zui2.jpg"><p style="font-size: 18px; color: black">高通称美国、韩国或将最先推出5G手机</p></a>
+
+</div>
+<div class="xia">
+ <a href="http://productnews.itxinwen.com/txit/20180706/395.html"><img src="images/zui3.png"><p style="font-size: 18px; color: black">5G要来了！第一批商用5G设备将2019年或2020年在葡萄牙上市</p></a>
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+</div><!-- zui结束 -->
+
+
+
+
+
+
+
+
+
+
+</div><!-- new-right结束 -->
+
+
+
+</div><!-- new-left结束 -->
+<div class="foot">
+
+
+ <div class="foottop">
+<ul>
+<li><a href="#">关于</a>
+  <ul>
+  <li><a href="#">品牌故事</a></li>
+  <li><a href="#">联系我们</a></li>
+  <li><a href="#">加入我们</a></li>
+  <li><a href="#">版权声明</a></li>
+
+  </ul>
+</li>
+
+
+<li><a href="#">留言</a>
+ <ul>
+  <li><a href="#">QQ空间</a></li>
+  <li><a href="#">新浪微博</a></li>
+  <li><a href="#">腾讯微博</a></li>
+  <li><a href="#">企业微信</a></li>
+
+  </ul>
+
+
+
+</li>
+
+
+
+<li><a href="#">关注</a>
+ <ul>
+  <li><a href="#">意见反馈</a></li>
+  <li><a href="#">问题留言</a></li>
+  <li><a href="#">媒体联络</a></li>
+  <li><a href="#">在线客服</a></li>
+
+  </ul>
+
+
+</li>
+
+
+<li><a href="#">课程</a>
+ <ul>
+  <li><a href="#">web前端开发</a></li>
+  <li><a href="#">PHP开发</a></li>
+  <li><a href="#">java开发</a></li>
+  <li><a href="#">Android开发</a></li>
+
+  </ul>
+
+
+
+</li>
+
+
+
+
+<li><a href="#"><img src="images/weixin.png">微信</a>
+<ul>
+ <li><img src="images/wx.jpg"></li>
+</ul>
+
+</li>
+
+
+</ul>
+
+ </div>
+<div class="ziti">
+未经ability.html同意，不得转载本网站之所有招聘信息及作品 我的招聘网版权所有© 1997-2014<br>
+京ICP备12025925号 电信业务审批[2001]字第233号函 京公网安备110105000322
+</div>
+</div>
+
+
+</div><!-- new-content-top结束 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div><!--wrap结束-->
+
+
+
+
+
+
+	
+	<script type="text/javascript" src="js/news.js"></script>
+</body>
+</html>

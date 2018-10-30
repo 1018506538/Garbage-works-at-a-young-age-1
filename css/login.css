@@ -1,0 +1,328 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+
+
+}
+html{
+	height: 100%;
+}
+
+body{
+	background-color:white;
+	height: 100%;
+
+
+}
+.top{
+	width: 100%;
+	height: 27px;
+	background: url("../images/top_bg.jpg")repeat-x;
+	position: relative;
+
+}
+.top-content{
+	width: 100%;
+	margin: 0 auto;
+width: 1250px;
+
+}
+.top-content li{
+	position:relative;
+	list-style-image: url("../images/li_bg.gif");
+	
+	float: right;
+	margin-left: 20px;
+	line-height: 27px;
+
+
+}
+
+.top-content li a{
+	text-decoration: none;
+	color: #8E8E8E;
+
+
+}
+.top-content a:hover{
+color: black;	
+text-decoration:none;
+font-weight: bold;
+}
+.wrap{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	position: absolute;
+}
+.logo{
+	height: 80px;
+	background-color: white;
+}
+.logo-left{
+	width: 30%;
+	float: left;
+
+}
+.logo-left img{
+	height: 80px;
+
+
+}
+.logo-right{
+	width: 30%;
+	float: right;
+	line-height: 80px;
+	color: gray;
+}
+
+.logo-right img{
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+.tel{
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: red;
+	vertical-align: middle;
+}
+
+.nav{
+	height: 50px;
+	width: 100%;
+	position: absolute;
+
+}
+
+.nav-left{
+	width: 20px;
+	background: url("../images/nav_left.jpg")no-repeat;
+	float: left;
+	height: 50px;
+	
+	
+}
+
+.nav-mid{
+	width: 98%;
+	background: url("../images/nav_bg.jpg") repeat-x;
+	float: left;
+	margin-left: 5px;
+	
+}
+.nav-right{
+	width:20px;
+	background: url("../images/nav_right.jpg")no-repeat;
+	float: left;
+	height: 50px;
+}
+
+
+.nav-mid-letf,.nav-mid-right{
+	float: left;
+   height: 50px;
+}
+.nav-mid-left{
+	width: 75%;
+
+}
+.nav-mid_right{
+	width: 37%;
+}
+.nav-mid-left li{
+	float: left;
+	list-style-type: none;
+	width: 16%;
+	text-align: center;
+	line-height:40px;
+
+
+}
+
+.nav-mid-left a:link,.nav-mid-left a:visited{
+	text-decoration: none;
+	color: #FFF;
+	font-size: 16px;
+	font-family:"微软雅黑";
+
+}
+.nav-mid-left a:hover{
+position: relative;
+text-decoration: none;
+color: yellow;
+font-size: 20px;
+
+}
+.nav-mid-left a:active{
+color: red;
+position: relative;
+text-decoration: none;
+font-size: 20px;
+}
+
+.text1{
+	width:90%;
+	height: 25px;
+   margin-top: 6px;
+   margin-left: 10px;
+background: url("../images/search.jpg") no-repeat right center;
+background-color: white;
+padding-right: 25px;
+border: 1px solid white;
+}
+body,div,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,th,td{
+	margin: 0;
+	padding: 0;
+	font:12px/1.5 "宋体","Arial","sans-serif","Tahoma";
+	color: #666;
+}
+ul,ol,li{
+	list-style: none;
+}
+input,select{
+	vertical-align: middle;
+}
+label{
+	vertical-align: middle;
+}
+input:focus,textarea:focus{
+	outline: none;
+}
+.btn{
+	border: none 0;
+}
+.mb10{
+	margin-bottom: 10px;
+}
+
+
+
+/*main*/
+form{
+	width: 740px;
+	height: 500px;
+	margin: 100px auto;
+}
+form div{
+	overflow: hidden;
+	clear: both;
+}
+
+form div label{
+	float: left;
+	clear: both;
+}
+
+form div label .text{
+	width: 152px;
+	height: 26px;
+	padding: 0 2px;
+	border: 1px solid #ccc;
+}
+
+form div label b{
+	font-weight: normal;
+	font-size: 12px;
+	color: #ccc;
+	visibility: hidden;
+}
+form div em{
+	display: inline-block;
+	font-size: 12px;
+	text-align: center;
+	color: #fff;
+	vertical-align: middle;
+    font-style: normal;
+    width: 53px;
+    height: 15px;
+    line-height: 15px;
+    background: #FFD099;
+}
+
+form div .active{
+	background-color: #FF6600;
+
+}
+div span{
+	display: inline-block;
+	width: 80px;
+	text-align: right;
+}
+.submitBtn{
+	width: 135px;
+	height: 33px;
+    color: #fff;
+    vertical-align: middle;
+    margin: 20px 0 0 80px;
+    background-color: #ff6600;
+
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 2px 10px 15px 3px #ff6600;
+
+
+}
+
+.changeImg{
+	width: 22px;
+	height: 22px;
+	display: inline-block;
+ 	vertical-align:middle;
+   background:no-repeat 0 -128px;
+}
+.msg{
+	line-height: 12px;
+	
+	float: left;
+	margin-left: 5px;
+	display: none;
+}
+
+
+.msg i {
+display: inline-block;
+vertical-align: middle;
+width: 20px;
+height: 20px;
+background:url("../images/1.png") no-repeat;
+}
+
+.msg .err{
+display: inline-block;
+vertical-align: middle;
+width: 15px;
+height: 15px;
+color: red;
+background: url("../images/2.png");
+
+}
+
+
+.msg .ok{
+display: inline-block;
+vertical-align: middle;
+width: 20px;
+height: 20px;
+color: red;
+background: url("../images/3.png");
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+

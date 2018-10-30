@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录页面</title>
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+<body>
+			<!--页面头开始-->
+<div class="top">
+<div class="top-content">
+<ul>
+<li><a href="javascript:;" id="people" >企业公众号：IT木杉</a></li>
+
+<li><a href="javascript:;" onclick="AddFavorite(window.location,document.title)">收藏</a></li>
+<li><a href="javascript:;" onclick="SetHome(window.location)">设为首页</a></li>
+
+</ul>
+</div>
+</div>	
+<a href="index.html" style="font-size: 18px;text-decoration: none;"><<返回首页</a>
+
+
+
+<form method="www.baidu.com">
+
+	<div><label><span>会员名：</span><input type="text" class="text" /></label>
+		<p class="msg"><i class="ati"></i>5-25个字符，一个汉字为2个字符，推荐使用中文会员名</p>
+
+		<p class="msg"><i class="err"></i>提示密码最少8个字符，推荐使用字母</p>
+
+         <p class="msg"><i class="ok"></i>
+          正确了
+         </p>
+
+	</div>
+
+      <div><label> <span></span> <b id="count">0个字符</b> </label></div>
+
+
+     <div><label><span>登录密码：</span><input type="password" class="text" /></label>
+     	<p class="msg"><i class="ati"></i>
+        <p class="msg"><i class="err"></i>提示密码最少8个字符，推荐使用字母</p>
+         <p class="msg"><i class="ok"></i>
+     </div>
+
+
+
+     <div style="margin: 3px 0 10px 0">
+     <label><span></span><em class="active">弱</em><em>中</em><em>强</em></label>
+     </div>
+
+     <div style="margin-bottom: 20px"><label><span>确认密码：</span><input type="password" class="text" disabled=""/></label>
+           <p class="msg"><i class="ati"></i>请再次输入你的密码</p>
+           <p class="msg"><i class="err"></i>
+           	<p class="msg"><i class="ok"></i>
+     </div>
+
+    <div><label><span>验证码：</span><input type="text" class="text" style="width: 50px" /> <a style="margin-left: 20px;border: 1px solid;font-size: 15px; ">sxqef</a>
+    	<a href="javascript:;" class="changeImg" title="重新获取验证码"></a></label></div>
+
+    <div><input type="submit" class="submitBtn btn" value="同意协议并注册"/></div>
+
+
+
+
+</form>
+
+
+
+	
+	<script type="text/javascript" src="js/login.js"></script>
+</body>
+</html>
